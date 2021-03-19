@@ -530,11 +530,11 @@
 *REMOVED*~virtual Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.Link(string routeName, object values) -> string
 Microsoft.AspNetCore.Mvc.JsonOptions.AllowInputFormatterExceptionMessages.get -> bool
 Microsoft.AspNetCore.Mvc.JsonOptions.AllowInputFormatterExceptionMessages.set -> void
-~Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateAsyncReleaser(Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor descriptor) -> System.Func<Microsoft.AspNetCore.Mvc.ControllerContext, object, System.Threading.Tasks.ValueTask>
-~Microsoft.AspNetCore.Mvc.Controllers.IControllerActivator.ReleaseAsync(Microsoft.AspNetCore.Mvc.ControllerContext context, object controller) -> System.Threading.Tasks.ValueTask
-~Microsoft.AspNetCore.Mvc.Controllers.IControllerActivatorProvider.CreateAsyncReleaser(Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor descriptor) -> System.Func<Microsoft.AspNetCore.Mvc.ControllerContext, object, System.Threading.Tasks.ValueTask>
-~Microsoft.AspNetCore.Mvc.Controllers.IControllerFactory.ReleaseControllerAsync(Microsoft.AspNetCore.Mvc.ControllerContext context, object controller) -> System.Threading.Tasks.ValueTask
-~Microsoft.AspNetCore.Mvc.Controllers.IControllerFactoryProvider.CreateAsyncControllerReleaser(Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor descriptor) -> System.Func<Microsoft.AspNetCore.Mvc.ControllerContext, object, System.Threading.Tasks.ValueTask>
+Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateAsyncReleaser(Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor! descriptor) -> System.Func<Microsoft.AspNetCore.Mvc.ControllerContext!, object!, System.Threading.Tasks.ValueTask>?
+Microsoft.AspNetCore.Mvc.Controllers.IControllerActivator.ReleaseAsync(Microsoft.AspNetCore.Mvc.ControllerContext! context, object! controller) -> System.Threading.Tasks.ValueTask
+Microsoft.AspNetCore.Mvc.Controllers.IControllerActivatorProvider.CreateAsyncReleaser(Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor! descriptor) -> System.Func<Microsoft.AspNetCore.Mvc.ControllerContext!, object!, System.Threading.Tasks.ValueTask>?
+Microsoft.AspNetCore.Mvc.Controllers.IControllerFactory.ReleaseControllerAsync(Microsoft.AspNetCore.Mvc.ControllerContext! context, object! controller) -> System.Threading.Tasks.ValueTask
+Microsoft.AspNetCore.Mvc.Controllers.IControllerFactoryProvider.CreateAsyncControllerReleaser(Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor! descriptor) -> System.Func<Microsoft.AspNetCore.Mvc.ControllerContext!, object!, System.Threading.Tasks.ValueTask>?
 Microsoft.AspNetCore.Mvc.MvcOptions.EnableActionInvokers.get -> bool
 Microsoft.AspNetCore.Mvc.MvcOptions.EnableActionInvokers.set -> void
 Microsoft.AspNetCore.Mvc.Infrastructure.ActionContextAccessor.ActionContext.get -> Microsoft.AspNetCore.Mvc.ActionContext?
